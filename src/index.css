@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  background: #041F31;
+  color: azure;
+ 
+}
+
+* {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0 20px;
+    scroll-behavior: smooth;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    max-width: 1080px;
+    margin: 10px auto;
+    padding: 10px 20px 0px 20px;
+    background-color: aliceblue;
+    color: black;
+    border: 10px solid #fff;
+    }
+    .pr1 {
+        display: flex;
+        flex-direction: row;  
+       align-items: center;
+        border: 1px solid #F8F8F8;
+        padding: 30px;
+        border-radius: 40px;
+        position: relative;
+        transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+        margin-right: 30px;
+    }
+    .pr1 a:hover {
+        color: #041F31;
+    }
+    .pr1:hover {
+    box-shadow: 0px 14px 30pc rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
+    }
+    .contact {
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(45deg, #1924f0, #3b45ff, #4a4dfb, hsl(236, 81%, 83%));
+        border-radius: 50px;
+    }
+    .contact-text {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .c1 {
+        
+        transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    }
+    .c2 {
+       
+        transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    }
+    @media (max-width:542px) {
+      .home__container {
+        margin-top: 100px;
+        z-index: 1;
+      } 
+      .header-border {
+        z-index: 10;
+    
+    } 
+    .project {
+        margin-top: 70px;
+      position: relative;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .project h1 {
+        font-size: 25px;
+    }
+    .pr1 {
+     
+       height: 30%;
+       margin: 0 35px;
+    }
+    .pr1 img {
+        width: 70px;
+        height: 30px;
+    }
+    .pr1 a {
+        font-size: 10px;
+    }
+    .contact {
+   position: relative;
+   flex-direction: column;
+   top: 30px;
+    }
+    .contact img:hover{
+        -webkit-filter: sepia(1) hue-rotate(180deg) saturate(10);
+        filter: sepia(1) hue-rotate(320deg) saturate(10);
+    }
+ .c1 {
+    display: flex;
+    justify-content: center;
+ }
+ .c2 {
+    position: relative;
+    left: -35px;
+ }
+
+ .contact-text {
+    font-size: 25px;
+ }
+    }
+    
+   
